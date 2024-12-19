@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+/* Custom styles for the Dashboard component */
+
+.dashboard-container {
+  min-height: 100vh;
+  background-color: #f3f4f6;
+  padding: 20px;
+}
+
+.dashboard-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #4b5563;
+  margin-bottom: 1.5rem;
+}
+
+.loading-text {
+  text-align: center;
+  font-size: 1.25rem;
+  color: #6b7280;
+}
+
+.user-info-card {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.user-details {
+  margin-bottom: 2rem;
+}
+
+.username {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.email {
+  font-size: 1.125rem;
+  color: #6b7280;
+}
+
+.pets-title {
+  font-size: 1.5rem;
+  font-weight: semi-bold;
+  color: #4b5563;
+  margin-bottom: 1rem;
+}
+
+.pets-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.pet-card {
+  background-color: #fafafa;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pet-name {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.pet-species,
+.pet-age,
+.pet-description {
+  font-size: 1rem;
+  color: #6b7280;
+}
+
+.no-pets {
+  text-align: center;
+  font-size: 1.25rem;
+  color: #6b7280;
+}

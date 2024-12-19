@@ -1,0 +1,49 @@
+2024-12-18 18:30:53.081 EAT [6795] LOG:  starting PostgreSQL 14.15 (Homebrew) on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2024-12-18 18:30:53.083 EAT [6795] LOG:  listening on IPv6 address "::1", port 5432
+2024-12-18 18:30:53.083 EAT [6795] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-12-18 18:30:53.086 EAT [6795] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-12-18 18:30:53.093 EAT [6796] LOG:  database system was shut down at 2024-12-18 18:30:47 EAT
+2024-12-18 18:30:53.099 EAT [6795] LOG:  database system is ready to accept connections
+2024-12-18 18:30:56.125 EAT [6805] FATAL:  database "mac" does not exist
+2024-12-18 18:31:06.748 EAT [6807] FATAL:  role "postgres" does not exist
+2024-12-18 18:31:35.101 EAT [6812] FATAL:  lock file "postmaster.pid" already exists
+2024-12-18 18:31:35.101 EAT [6812] HINT:  Is another postmaster (PID 6795) running in data directory "/usr/local/var/postgres"?
+2024-12-18 18:32:34.479 EAT [7270] FATAL:  could not open file "global/pg_filenode.map": No such file or directory
+2024-12-18 18:32:53.105 EAT [6801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2024-12-18 18:32:53.794 EAT [6801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2024-12-18 18:32:53.794 EAT [6801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2024-12-18 18:32:54.480 EAT [6801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2024-12-18 18:32:54.481 EAT [6801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2024-12-18 18:32:55.165 EAT [6801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2024-12-18 18:32:55.165 EAT [6801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2024-12-18 18:32:55.859 EAT [6801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2024-12-18 18:32:55.859 EAT [6801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2024-12-18 18:32:56.544 EAT [6801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2024-12-18 18:32:56.544 EAT [6801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2024-12-18 18:32:57.235 EAT [6801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2024-12-18 18:32:57.235 EAT [6801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2024-12-18 18:32:57.922 EAT [6801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2024-12-18 18:32:57.923 EAT [6801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2024-12-18 18:32:58.614 EAT [6801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2024-12-18 18:32:58.614 EAT [6801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2024-12-18 18:32:59.429 EAT [6801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2024-12-18 18:32:59.429 EAT [6801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2024-12-18 18:33:00.130 EAT [6801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2024-12-18 18:33:00.131 EAT [6801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2024-12-18 18:33:00.825 EAT [6801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2024-12-18 18:33:00.825 EAT [6801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2024-12-18 18:33:01.529 EAT [6801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2024-12-18 18:33:01.529 EAT [6801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2024-12-18 18:33:02.220 EAT [6801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2024-12-18 18:33:02.220 EAT [6801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2024-12-18 18:33:02.916 EAT [6801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2024-12-18 18:33:02.916 EAT [6801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2024-12-18 18:33:03.609 EAT [6801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2024-12-18 18:33:03.609 EAT [6801] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2024-12-18 18:33:04.038 EAT [6800] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2024-12-18 18:33:34.503 EAT [6795] LOG:  could not open file "postmaster.pid": No such file or directory
+2024-12-18 18:33:34.520 EAT [6795] LOG:  performing immediate shutdown because data directory lock file is invalid
+2024-12-18 18:33:34.521 EAT [6795] LOG:  received immediate shutdown request
+2024-12-18 18:33:34.521 EAT [6795] LOG:  could not open file "postmaster.pid": No such file or directory
+2024-12-18 18:33:34.522 EAT [6801] LOG:  could not open temporary statistics file "pg_stat/global.tmp": No such file or directory
+2024-12-18 18:33:34.526 EAT [6795] LOG:  database system is shut down
